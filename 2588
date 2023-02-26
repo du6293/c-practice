@@ -1,0 +1,28 @@
+#include <iostream>
+#include <stdlib.h>  // to use stoi
+
+using namespace std;
+
+
+int main()
+{
+	int A;
+	char B[2];
+	int x,y,z,w;
+	
+	cin >> A;
+	cin >> B;
+	
+	x = A * (B[2] - '0');
+	y = A * (B[1] - '0');
+	z = A * (B[0] - '0');
+	w = A * stoi(B); 		/// making string to number
+	
+	
+	cout << x << endl;
+	cout << y << endl;
+	cout << z << endl;
+	cout << w << endl;
+	
+	return 0;
+}
