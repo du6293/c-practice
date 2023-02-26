@@ -1,0 +1,19 @@
+#include <iostream>
+
+using namespace std;
+
+
+int main()
+{
+	double A,B;   // float is 6, double is 15
+
+	
+	cin >> A >> B;
+	
+	
+	cout << fixed;     // fix decimal point
+	cout.precision(9); // 9 = number of valid numbers(0.123456789)
+	cout << A/B << endl;
+	
+	return 0;
+}
